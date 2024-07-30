@@ -1,11 +1,25 @@
 #title {
     font-size: 30px;
-    background-color: rgb(84, 170, 192);
+    background-color: rgb(136, 57, 57, .85);
     color: aliceblue;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 3px solid rgb(117, 57, 57);
+    width: 80%;
+}
+
+.body-list {
+    background-color: rgb(208, 229, 243, .85);
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px solid rgb(137, 171, 211)
 }
 
 .list {
@@ -29,13 +43,12 @@ li {
 }
 
 .pic,
-ol,
-#title {
+ol {
     
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
 }
 
 .list-cont {
